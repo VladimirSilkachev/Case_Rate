@@ -22,6 +22,10 @@ COMP = float(stat[0])
 YDS = float((stat[3]).replace(',',''))
 TD = float(stat[5])
 INT = float(stat[6])
-PR = ((ATT + COMP + YDS + TD + INT)/6) * 100
-print(PR)
+a = (COMP/ATT) / 6
+b = (YDS/ATT - 3) * .25
+c = (TD/ATT) * 20
+d = (2.375 - (INT/ATT * 25))
+PR = ((a + b + c + d)/6) * 100
+print('{0:.3f}'.format(PR))
 # Файл input.txt
