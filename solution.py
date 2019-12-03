@@ -5,7 +5,7 @@
 """
 import urllib.request
 
-url = 'http://www.nfl.com/player/brycepetty/2552369/profile'
+url = 'http://www.nfl.com/player/ryanmallett/2495443/profile'
 f = urllib.request.urlopen(url)
 s = f.read()
 text = str(s)
@@ -30,11 +30,12 @@ PR = ((a + b + c + d)/6) * 100
 print('{0:.2f}'.format(PR))
 # Файл input.txt
 
-f = open('output.txt', "w")
-f.write("COMP: " + str(COMP))
-f.write("\nATT: " + str(ATT))
-f.write("\nYDS: " + str(YDS))
-f.write("\nTD: " + str(TD))
-f.write("\nINT: " + str(INT))
-f.write("\nPR: " +  str(('{0:.2f}'.format(PR))))
-f.close()
+with open('output.txt', "w") as f:
+    f.write("Name: " + name)
+    f.write("\nCOMP: " + str(COMP))
+    f.write("\nATT: " + str(ATT))
+    f.write("\nYDS: " + str(YDS))
+    f.write("\nTD: " + str(TD))
+    f.write("\nINT: " + str(INT))
+    f.write("\nPR: " + str(('{0:.2f}'.format(PR))))
+
