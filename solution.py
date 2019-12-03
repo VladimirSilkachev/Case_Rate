@@ -27,5 +27,14 @@ b = (YDS/ATT - 3) * .25
 c = (TD/ATT) * 20
 d = (2.375 - (INT/ATT * 25))
 PR = ((a + b + c + d)/6) * 100
-print('{0:.3f}'.format(PR))
+print('{0:.2f}'.format(PR))
 # Файл input.txt
+
+f = open('output.txt', "w")
+f.write("COMP: " + str(COMP))
+f.write("\nATT: " + str(ATT))
+f.write("\nYDS: " + str(YDS))
+f.write("\nTD: " + str(TD))
+f.write("\nINT: " + str(INT))
+f.write("\nPR: " +  str(('{0:.2f}'.format(PR))))
+f.close()
