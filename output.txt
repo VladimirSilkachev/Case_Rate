@@ -1,1 +1,22 @@
-import solution
+Bryce Petty 130 245 1353 4 10 40.00
+Jimmy Garoppolo 483 719 5864 38 18 70.12
+Matt Moore 645 1074 7597 49 36 59.47
+AJ McCarron 87 137 928 6 2 65.59
+Ryan Mallett 190 345 1835 9 10 47.39
+Landry Jones 108 169 1310 8 7 59.68
+Robert Griffin III 780 1232 9133 43 27 62.23
+Alex Tanney 10 14 99 1 0 82.34
+Tom Savage 181 315 2000 5 7 51.17
+Scott Tolzien 88 146 1065 2 9 38.03
+Mark Sanchez 1314 2320 15357 86 89 52.61
+Kellen Clemens 350 638 4053 16 21 49.72
+Ryan Nassib 9 10 128 1 0 116.25
+Dan Orlovsky 298 512 3132 15 13 53.37
+Teddy Bridgewater 697 1069 7638 38 25 60.77
+Brian Hoyer 873 1477 10274 52 34 59.85
+Matt Schaub 2148 3348 25467 136 91 62.78
+Derek Anderson 909 1674 10878 60 64 51.69
+Luke McCown 216 356 2370 9 15 47.38
+Matt Barkley 183 307 2270 10 19 44.62
+Thad Lewis 115 189 1296 5 4 57.34
+Sean Mannion 33 53 258 0 1 41.23
