@@ -25,7 +25,7 @@ for url in lst_file:
     YDS = int((stat[3]).replace(',',''))
     TD = int((stat[5]).replace(',',''))
     INT = int((stat[6]).replace(',',''))
-    a = (COMP/ATT) / 6
+    a = (COMP/ATT) / 6                                              # Переменные для вычисления PR.
     b = (YDS/ATT - 3) * .25
     c = (TD/ATT) * 20
     d = (2.375 - (INT/ATT * 25))
